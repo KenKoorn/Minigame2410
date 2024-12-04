@@ -1,0 +1,28 @@
+.game-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 0px solid #333;
+  border-radius: 20px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(145deg, #ffffff, #ffffff); /* Gradient inside */
+  text-align: center;
+}
+
+/* Score container */
+#score {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Canvas styling */
+#gameCanvas {
+  background: #f9e784; /* Light yellow background */
+  border: 5px solid white;
+  border-radius: 15px;
+}
